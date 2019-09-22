@@ -1,0 +1,80 @@
+body{
+    background-color: #ffff;
+    padding: 30px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 50px;
+    margin: 0 auto;
+    max-width: 1120px;
+}
+
+.num{
+    margin: 40px;
+    display: block;
+    width: auto;
+}
+
+h2{
+    text-align: center;
+    padding: 15px 0;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.num p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-indent: 15px;
+    padding-left: 20px;
+}
+
+.num .ico{
+    width: 27px;
+    height: 27px;
+    padding: 0;
+    margin: 0;
+}
+
+.num .ico .ic1{
+    width: 27px;
+    height: 27px;
+    display: inline-block;
+    background-color: #2a69a6;
+    padding: 21px 25px;
+    border:none;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    left: 35%;
+    margin: 0;
+}
+
+.ico:hover .ic1{
+    display: none;
+}
+
+.num .ico .ic2{
+    display: none;
+}
+
+.ico:hover .ic2{
+    width: 27px;
+    height: 27px;
+    display: inline-block;
+    background-color: #ffff;
+    padding: 20px 25px;
+    border: 1px solid #2a69a6;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    left: 35%;
+    margin: 0;
+}
