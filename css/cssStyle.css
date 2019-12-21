@@ -42,6 +42,7 @@ svg{
     border: 1px solid #2c6aa7;
     padding: 15px;
     border-radius: 40px;
+    cursor: pointer;
 }
 
 svg:hover{
